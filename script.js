@@ -37,11 +37,19 @@ div2.innerHTML = `
 `
 div.appendChild(div2)
 
-// evnet handler 
+// evnet handler by onclick
 const text = document.getElementById('script');
 text.style.display = 'none'
 function details() {
     const text = document.getElementById('script');
     text.style.display = 'block'
 }
+
+// evnet handler by id 
+const text1 = document.getElementById('script1');
+text1.style.display = 'none'
+const btn = document.getElementById('btn-2');
+btn.addEventListener('click', function () {
+    text1.style.display = 'block'
+})
 
