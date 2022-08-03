@@ -5,3 +5,9 @@ body {
 h2 {
     color: white;
 }
+
+.blog {
+    background-color: antiquewhite;
+    color: green;
+    padding: 2rem;
+}
