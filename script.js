@@ -37,3 +37,11 @@ div2.innerHTML = `
 `
 div.appendChild(div2)
 
+// evnet handler 
+const text = document.getElementById('script');
+text.style.display = 'none'
+function details() {
+    const text = document.getElementById('script');
+    text.style.display = 'block'
+}
+
