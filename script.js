@@ -23,6 +23,9 @@ const queryAll = document.querySelectorAll('.blog');
 const div = document.getElementById('blog-parents');
 const h2 = document.createElement('h2');
 h2.innerText = 'Blog-5';
+h2.classList.add('blog')
+const p = document.createElement('p');
+p.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident illum qui quisquam itaque deleniti earum vitae nemo consequuntur quis maxime quo voluptas explicabo a tempore dolores, magni ipsum, sapiente nihil.';
 div.appendChild(h2);
-
+div.appendChild(p);
 
