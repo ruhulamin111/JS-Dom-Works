@@ -29,3 +29,11 @@ p.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provide
 div.appendChild(h2);
 div.appendChild(p);
 
+// innerhtml add 
+const div2 = document.createElement('div')
+div2.innerHTML = `
+<h2>Blog-6</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident illum qui quisquam itaque deleniti earum vitae nemo </p>
+`
+div.appendChild(div2)
+
